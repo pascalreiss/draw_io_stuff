@@ -1,21 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T11:23:06.016Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="73JZYJBC8rGeJJE7sqO8" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T11:38:06.644Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="6-WvJ7TVtH9e_0xrlbxq" version="22.1.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1418" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="AQtNqByRrbC6djsVxBHW-5" value="GraphDbApi" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1990" y="318" width="200" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-6" value="+ neo4j_uri: str&lt;br&gt;+ session: Session" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AQtNqByRrbC6djsVxBHW-5" vertex="1">
-          <mxGeometry y="26" width="200" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="AQtNqByRrbC6djsVxBHW-5" vertex="1">
-          <mxGeometry y="60" width="200" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-8" value="+ run_query: pd.DataFrame&lt;br&gt;+ drop_db: None&lt;br&gt;+ edges_tostring: List[Tuple[str, str]]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AQtNqByRrbC6djsVxBHW-5" vertex="1">
-          <mxGeometry y="68" width="200" height="62" as="geometry" />
-        </mxCell>
         <mxCell id="AQtNqByRrbC6djsVxBHW-9" value="MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="30" y="40" width="240" height="180" as="geometry" />
         </mxCell>
@@ -39,30 +27,6 @@
         </mxCell>
         <mxCell id="AQtNqByRrbC6djsVxBHW-16" value="+ run(): None" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AQtNqByRrbC6djsVxBHW-13" vertex="1">
           <mxGeometry y="68" width="120" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-17" value="GtCommandSubject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1670" y="168" width="280" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-18" value="+ graph_db: GraphDbApi&lt;br&gt;+ ts_coords: np.ndarray&lt;br&gt;+ ts_labels: np.ndarray | None&lt;br&gt;+ ip: str&lt;br&gt;+ port: int&lt;br&gt;+ ts_hit_threshold: int&lt;br&gt;+ loc_socket: socket&lt;br&gt;+ record_thread: Thread&lt;br&gt;+ measure_observers: List[Observer]&lt;br&gt;+ coord_observer: List[Observer]&lt;br&gt;+ ts_hit_observers: List[Observer]&lt;br&gt;- _noise_buffer: np.ndarray&lt;br&gt;- _median_buffer: np.ndarray" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AQtNqByRrbC6djsVxBHW-17" vertex="1">
-          <mxGeometry y="26" width="280" height="194" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="AQtNqByRrbC6djsVxBHW-17" vertex="1">
-          <mxGeometry y="220" width="280" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-20" value="+ set_next_ts(int): None&lt;br&gt;- _filter_coord(np.ndarray, it): np.ndarray | None&lt;br&gt;- _record(int): None" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AQtNqByRrbC6djsVxBHW-17" vertex="1">
-          <mxGeometry y="228" width="280" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-21" value="EcosSubject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1990" y="168" width="200" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-22" value="+ ecos_config: Dict[str, Any]&lt;br&gt;+ ecos_ids: pd.Series&lt;br&gt;+ observers: List[Observer]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AQtNqByRrbC6djsVxBHW-21" vertex="1">
-          <mxGeometry y="26" width="200" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="AQtNqByRrbC6djsVxBHW-21" vertex="1">
-          <mxGeometry y="80" width="200" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-24" value="+ start_record(): None&lt;br&gt;- _record(str, int): None" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AQtNqByRrbC6djsVxBHW-21" vertex="1">
-          <mxGeometry y="88" width="200" height="42" as="geometry" />
         </mxCell>
         <mxCell id="AQtNqByRrbC6djsVxBHW-25" value="WeichenEditor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="840" y="220" width="200" height="110" as="geometry" />
@@ -110,7 +74,7 @@
           <mxGeometry y="34" width="160" height="56" as="geometry" />
         </mxCell>
         <mxCell id="AQtNqByRrbC6djsVxBHW-41" value="Observer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1940" y="491" width="160" height="94" as="geometry" />
+          <mxGeometry x="1940" y="514" width="160" height="94" as="geometry" />
         </mxCell>
         <mxCell id="AQtNqByRrbC6djsVxBHW-42" value="+ result: Any&lt;br&gt;+ subject: Subject" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AQtNqByRrbC6djsVxBHW-41" vertex="1">
           <mxGeometry y="26" width="160" height="34" as="geometry" />
@@ -127,9 +91,9 @@
             <mxPoint x="80" y="94" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-45" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AQtNqByRrbC6djsVxBHW-17" edge="1">
+        <mxCell id="AQtNqByRrbC6djsVxBHW-45" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g-inLHHgEO3LOKFMF7n-49" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1770" y="148" as="sourcePoint" />
+            <mxPoint x="1810" y="168" as="sourcePoint" />
             <mxPoint x="1950" y="108" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1810" y="148" />
@@ -137,9 +101,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AQtNqByRrbC6djsVxBHW-46" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AQtNqByRrbC6djsVxBHW-21" edge="1">
+        <mxCell id="AQtNqByRrbC6djsVxBHW-46" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g-inLHHgEO3LOKFMF7n-47" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1810" y="178" as="sourcePoint" />
+            <mxPoint x="2090" y="168" as="sourcePoint" />
             <mxPoint x="1950" y="108" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2090" y="148" />
@@ -249,7 +213,7 @@
           <mxGeometry y="60" width="220" height="8" as="geometry" />
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-22" value="EcosObserver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1910" y="646" width="220" height="88" as="geometry" />
+          <mxGeometry x="1910" y="669" width="220" height="88" as="geometry" />
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-23" value="+ command_queue: Queue[Command]&lt;br&gt;+ ecos_df: pd.DataFrame&lt;br&gt;+ map_editor: MapEditor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1g-inLHHgEO3LOKFMF7n-22">
           <mxGeometry y="26" width="220" height="54" as="geometry" />
@@ -258,7 +222,7 @@
           <mxGeometry y="80" width="220" height="8" as="geometry" />
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-28" value="TsHitObserver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1670" y="646" width="220" height="88" as="geometry" />
+          <mxGeometry x="1670" y="669" width="220" height="88" as="geometry" />
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-29" value="+ command_queue: Queue[Command]&lt;br&gt;+ ecos_df: pd.DataFrame&lt;br&gt;+ map_editor: MapEditor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1g-inLHHgEO3LOKFMF7n-28">
           <mxGeometry y="26" width="220" height="54" as="geometry" />
@@ -267,7 +231,7 @@
           <mxGeometry y="80" width="220" height="8" as="geometry" />
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-31" value="TsMeassureObserver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2150" y="646" width="220" height="138" as="geometry" />
+          <mxGeometry x="2150" y="669" width="220" height="138" as="geometry" />
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-32" value="+ subject: GtCommandSubject&lt;br&gt;+ command_queue: Queue[Command]&lt;br&gt;+ selected_ts: str&lt;br&gt;+ ui: Ui_MainWindow&lt;br&gt;+ points_needed: int&lt;br&gt;+ buffer: np.ndarray&lt;br&gt;+ index: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1g-inLHHgEO3LOKFMF7n-31">
           <mxGeometry y="26" width="220" height="104" as="geometry" />
@@ -292,21 +256,21 @@
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-40" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g-inLHHgEO3LOKFMF7n-28" target="AQtNqByRrbC6djsVxBHW-44">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1850" y="620" as="sourcePoint" />
-            <mxPoint x="2010" y="620" as="targetPoint" />
+            <mxPoint x="1850" y="643" as="sourcePoint" />
+            <mxPoint x="2010" y="643" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1780" y="620" />
-              <mxPoint x="2020" y="620" />
+              <mxPoint x="1780" y="643" />
+              <mxPoint x="2020" y="643" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-42" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g-inLHHgEO3LOKFMF7n-31" target="AQtNqByRrbC6djsVxBHW-44">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="2250" y="640" as="sourcePoint" />
-            <mxPoint x="2410" y="640" as="targetPoint" />
+            <mxPoint x="2250" y="663" as="sourcePoint" />
+            <mxPoint x="2410" y="663" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2260" y="620" />
-              <mxPoint x="2020" y="620" />
+              <mxPoint x="2260" y="643" />
+              <mxPoint x="2020" y="643" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -338,6 +302,15 @@
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-46" value="Beim Refactoren anschauen was alles public sein muss.&lt;br&gt;Da GraphDbApi und GtCommandSubject Singletons sind, sollen diese keine Referenzen mehr haben." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1055" y="683" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1g-inLHHgEO3LOKFMF7n-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;EcosSubject&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ecos_config: Dict[str, Any]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ecos_ids: pd.Series&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ observers: List[Observer]&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ start_record(): None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _record(str, int): None&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1990" y="168" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1g-inLHHgEO3LOKFMF7n-48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GraphDbApi&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ neo4j_uri: str&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ session: Session&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ run_query: pd.DataFrame&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ drop_db: None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ edges_tostring: List[Tuple[str, str]]&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1990" y="320" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1g-inLHHgEO3LOKFMF7n-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GtCommandSubject&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ graph_db: GraphDbApi&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_coords: np.ndarray&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_labels: np.ndarray | None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ip: str&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ port: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_hit_threshold: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ loc_socket: socket&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ record_thread: Thread&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ measure_observers: List[Observer]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ coord_observer: List[Observer]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_hit_observers: List[Observer]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _noise_buffer: np.ndarray&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _median_buffer: np.ndarray&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ set_next_ts(int): None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _filter_coord(np.ndarray, it): np.ndarray | None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _record(int): None&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1670" y="170" width="270" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
