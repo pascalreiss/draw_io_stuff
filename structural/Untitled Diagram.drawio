@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T11:42:10.770Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="dJiUdRn2pFHVhIyiGwkv" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T11:51:48.956Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ByjXODnF5VYOv3gdBbv1" version="22.1.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1418" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -311,6 +311,50 @@
         </mxCell>
         <mxCell id="1g-inLHHgEO3LOKFMF7n-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GtCommandSubject&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ graph_db: GraphDbApi&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_coords: np.ndarray&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_labels: np.ndarray | None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ip: str&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ port: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_hit_threshold: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ loc_socket: socket&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ record_thread: Thread&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ measure_observers: List[Observer]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ coord_observer: List[Observer]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_hit_observers: List[Observer]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _noise_buffer: np.ndarray&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _median_buffer: np.ndarray&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ set_next_ts(int): None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _filter_coord(np.ndarray, it): np.ndarray | None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _record(int): None&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1670" y="170" width="270" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="1g-inLHHgEO3LOKFMF7n-50" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g-inLHHgEO3LOKFMF7n-7" target="AQtNqByRrbC6djsVxBHW-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="690" as="sourcePoint" />
+            <mxPoint x="370" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="548" />
+              <mxPoint x="220" y="410" />
+              <mxPoint x="340" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1g-inLHHgEO3LOKFMF7n-51" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g-inLHHgEO3LOKFMF7n-13" target="AQtNqByRrbC6djsVxBHW-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="740" as="sourcePoint" />
+            <mxPoint x="450" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="635" />
+              <mxPoint x="220" y="410" />
+              <mxPoint x="340" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1g-inLHHgEO3LOKFMF7n-52" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g-inLHHgEO3LOKFMF7n-10" target="AQtNqByRrbC6djsVxBHW-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="390" as="sourcePoint" />
+            <mxPoint x="320" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="610" />
+              <mxPoint x="470" y="410" />
+              <mxPoint x="340" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1g-inLHHgEO3LOKFMF7n-53" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1g-inLHHgEO3LOKFMF7n-19" target="AQtNqByRrbC6djsVxBHW-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="700" as="sourcePoint" />
+            <mxPoint x="790" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="590" />
+              <mxPoint x="470" y="410" />
+              <mxPoint x="340" y="410" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
