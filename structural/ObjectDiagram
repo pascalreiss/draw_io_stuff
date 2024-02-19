@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T12:06:25.895Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0KNt0i329200FMydcVFg" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-19T12:08:51.668Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="esjnq2H27Wuz2o19KzGc" version="23.1.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1022" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -251,7 +251,7 @@
           <mxGeometry x="900" y="800" width="260" height="56" as="geometry" />
         </mxCell>
         <mxCell id="FaT3xAPoSvEMmvrnu7YH-65" value="TsMeassureObserver" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="945" y="890" width="170" height="56" as="geometry" />
+          <mxGeometry x="945" y="880" width="170" height="56" as="geometry" />
         </mxCell>
         <mxCell id="FaT3xAPoSvEMmvrnu7YH-67" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FaT3xAPoSvEMmvrnu7YH-65" target="FaT3xAPoSvEMmvrnu7YH-64">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -273,12 +273,14 @@
             <mxPoint x="1260" y="910" as="sourcePoint" />
             <mxPoint x="1310" y="860" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1440" y="918" />
+              <mxPoint x="1440" y="908" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FaT3xAPoSvEMmvrnu7YH-71" value="graph_db : GraphDbApi" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="607" width="160" height="56" as="geometry" />
+          <mxGeometry x="1240" y="800" width="160" height="56" as="geometry">
+            <mxRectangle x="1240" y="800" width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FaT3xAPoSvEMmvrnu7YH-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FaT3xAPoSvEMmvrnu7YH-69" target="FaT3xAPoSvEMmvrnu7YH-71">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -299,6 +301,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="980" y="430" as="sourcePoint" />
             <mxPoint x="1030" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaT3xAPoSvEMmvrnu7YH-76" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FaT3xAPoSvEMmvrnu7YH-64" target="FaT3xAPoSvEMmvrnu7YH-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="860" as="sourcePoint" />
+            <mxPoint x="1230" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
