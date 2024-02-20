@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T12:36:56.509Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1NIGyXDoLU6bHFstvQLu" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T14:27:17.834Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="yb9kJRHI18fpOfkWQQcw" version="23.1.4" type="github">
   <diagram name="Page-1" id="d6eUmDvcShwaC1UaEgvf">
     <mxGraphModel dx="945" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
             <mxPoint x="95" y="192" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j8_WjPTgyQFBDWqSarh4-14" value="put(SetComboBoxCommand)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="j8_WjPTgyQFBDWqSarh4-14" value="put(scb_cmd:SetComboBoxCommand)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="95" y="224" as="sourcePoint" />
             <mxPoint x="570" y="224" as="targetPoint" />
@@ -75,13 +75,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="j8_WjPTgyQFBDWqSarh4-19" value="return SetComboBoxCommand" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="j8_WjPTgyQFBDWqSarh4-16" target="j8_WjPTgyQFBDWqSarh4-17">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="j8_WjPTgyQFBDWqSarh4-19" value="return scb_cmd" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="j8_WjPTgyQFBDWqSarh4-16" target="j8_WjPTgyQFBDWqSarh4-17">
+          <mxGeometry x="-0.0017" relative="1" as="geometry">
             <mxPoint x="590" y="278" as="sourcePoint" />
             <mxPoint x="775" y="278" as="targetPoint" />
             <Array as="points">
               <mxPoint x="680" y="278" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j8_WjPTgyQFBDWqSarh4-21" value="ecos_df:pd.DataFrame" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
