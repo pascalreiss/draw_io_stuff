@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T15:28:17.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="eVG2EcwNaUQF2u2N4Bhf" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T15:37:41.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="ADJAprzJbsnkfVcny7dX" version="23.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1932" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
           <mxGeometry x="-750" y="300" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CWkONviF48bVn2sMeExZ-13" value="Nan is not in _median_buffer" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-755" y="450" width="210" height="80" as="geometry" />
+          <mxGeometry x="-755" y="420" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CWkONviF48bVn2sMeExZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CWkONviF48bVn2sMeExZ-12" target="CWkONviF48bVn2sMeExZ-13">
           <mxGeometry x="0.0698" y="-20" relative="1" as="geometry">
@@ -71,7 +71,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CWkONviF48bVn2sMeExZ-16" value="roll(_median_buffer)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-500" y="570" width="160" height="60" as="geometry" />
+          <mxGeometry x="-500" y="560" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CWkONviF48bVn2sMeExZ-18" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CWkONviF48bVn2sMeExZ-13" target="CWkONviF48bVn2sMeExZ-19">
           <mxGeometry x="-0.5" y="-20" relative="1" as="geometry">
@@ -85,7 +85,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CWkONviF48bVn2sMeExZ-19" value="result = median(_median_buffer, axis=0)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-800" y="570" width="280" height="60" as="geometry" />
+          <mxGeometry x="-800" y="560" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CWkONviF48bVn2sMeExZ-21" value="Init both buffer with NaN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-235" y="140" width="165" height="30" as="geometry" />
