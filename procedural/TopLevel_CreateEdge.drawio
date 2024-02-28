@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T18:32:32.390Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="hXVITKUqrdHl_q-Lh4X1" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T18:33:03.487Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mZ3kXWLyxwQPOXi1WqzD" version="23.1.7" type="github">
   <diagram name="Page-1" id="YXMd4a9Zy4mVJkdIi3uw">
     <mxGraphModel dx="782" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -64,9 +64,9 @@
             <mxPoint x="395" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UlU-PpXcxWb3U9gIm-tZ-10" value="Strecke von A nach B erfassen" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="UlU-PpXcxWb3U9gIm-tZ-10" value="Strecke von A nach B in der GUIerfassen" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="80" y="189" as="sourcePoint" />
+            <mxPoint x="40" y="190" as="sourcePoint" />
             <mxPoint x="275" y="189" as="targetPoint" />
           </mxGeometry>
         </mxCell>
