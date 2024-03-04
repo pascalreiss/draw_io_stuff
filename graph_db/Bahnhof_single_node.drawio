@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T15:59:36.552Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Kvzjipr1Teaa-mrjdjZ2" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T16:21:28.698Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="kqip6HEKpb2tNVSwp7nW" version="24.0.1" type="github">
   <diagram name="Page-1" id="6gWPEMETjJz6Jln8jHfX">
     <mxGraphModel dx="2058" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,6 +37,24 @@
         </mxCell>
         <mxCell id="sM3u0f4Afnb12L3-TfQ_-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="343" y="63" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sM3u0f4Afnb12L3-TfQ_-10" value="Anfang" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM3u0f4Afnb12L3-TfQ_-11" value="Ablenkung" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM3u0f4Afnb12L3-TfQ_-12" value="Gerade" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="98" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM3u0f4Afnb12L3-TfQ_-13" value="Gerade" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="283" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM3u0f4Afnb12L3-TfQ_-14" value="Anfang" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="378" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM3u0f4Afnb12L3-TfQ_-15" value="Ablenkung" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
