@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T15:54:26.006Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rkCD-rTtEo8kuugFuVLV" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T16:19:07.146Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="2RrgeuGCCoa38u_o0hBd" version="24.0.1" type="github">
   <diagram name="Page-1" id="MNpvDhinYIVKgFokDUD7">
     <mxGraphModel dx="2058" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,6 +19,24 @@
               <mxPoint x="320" y="40" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qbAr8CiwFzu9fodnG-jA-3" value="Anfang" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="24" y="77" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbAr8CiwFzu9fodnG-jA-4" value="Ablenkung" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbAr8CiwFzu9fodnG-jA-5" value="Gerade" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="76" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbAr8CiwFzu9fodnG-jA-7" value="Gerade" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="77" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbAr8CiwFzu9fodnG-jA-8" value="Anfang" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="76" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbAr8CiwFzu9fodnG-jA-9" value="Ablenkung" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
