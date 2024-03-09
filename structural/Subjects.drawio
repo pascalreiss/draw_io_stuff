@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T12:04:15.254Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.1" etag="viAYWWGwZCfT8ZwQpUBs" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-09T12:04:44.530Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RN5XLkn8Dd_wONJ-mRjW" version="24.0.1" type="github">
   <diagram name="Page-1" id="31kL542jptBf9IF8P8UT">
-    <mxGraphModel>
+    <mxGraphModel dx="1208" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1zcbpxARIGvhw2aFm4UJ-1" value="Subject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="10" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1zcbpxARIGvhw2aFm4UJ-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1zcbpxARIGvhw2aFm4UJ-1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1zcbpxARIGvhw2aFm4UJ-3" value="+ attach(Observer): None&lt;br&gt;+ detach(Observer): None&lt;br&gt;+ notify(List[Observer], Any)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1zcbpxARIGvhw2aFm4UJ-1">
+          <mxGeometry y="34" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="1zcbpxARIGvhw2aFm4UJ-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="1zcbpxARIGvhw2aFm4UJ-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1010" y="160" as="sourcePoint" />
+            <mxPoint x="1150" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="140" />
+              <mxPoint x="1150" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zcbpxARIGvhw2aFm4UJ-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="1zcbpxARIGvhw2aFm4UJ-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1290" y="160" as="sourcePoint" />
+            <mxPoint x="1150" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1290" y="140" />
+              <mxPoint x="1150" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zcbpxARIGvhw2aFm4UJ-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;EcosSubject&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ecos_config: Dict[str, Any]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ecos_ids: pd.Series&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ observers: List[Observer]&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ start_record(): None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _record(str, int): None&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="160" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1zcbpxARIGvhw2aFm4UJ-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GraphDbApi&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ neo4j_uri: str&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ session: Session&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ run_query: pd.DataFrame&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ drop_db: None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ edges_tostring: List[Tuple[str, str]]&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="312" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1zcbpxARIGvhw2aFm4UJ-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GtCommandSubject&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ graph_db: GraphDbApi&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_coords: np.ndarray&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_labels: np.ndarray | None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ip: str&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ port: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_hit_threshold: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ loc_socket: socket&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ record_thread: Thread&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ measure_observers: List[Observer]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ coord_observer: List[Observer]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ts_hit_observers: List[Observer]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _noise_buffer: np.ndarray&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _median_buffer: np.ndarray&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ set_next_ts(int): None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _filter_coord(np.ndarray, it): np.ndarray | None&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- _record(int): None&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="162" width="270" height="290" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
