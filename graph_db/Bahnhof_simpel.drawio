@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T15:19:55.725Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HGqhNYnlGkOz_msdH3i-" version="24.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T15:27:32.880Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cJvy85EJAA52xe_T008t" version="24.0.3" type="github">
   <diagram name="Page-1" id="MNpvDhinYIVKgFokDUD7">
-    <mxGraphModel dx="2058" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="980" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,22 +9,6 @@
         </mxCell>
         <mxCell id="qbAr8CiwFzu9fodnG-jA-3" value="Anfang" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="24" y="77" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qbAr8CiwFzu9fodnG-jA-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="80" as="sourcePoint" />
-            <mxPoint x="420" y="80" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qbAr8CiwFzu9fodnG-jA-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="80" as="sourcePoint" />
-            <mxPoint x="360" y="80" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="120" y="40" />
-              <mxPoint x="320" y="40" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="qbAr8CiwFzu9fodnG-jA-4" value="Ablenkung" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" parent="1" vertex="1">
           <mxGeometry x="60" y="40" width="60" height="30" as="geometry" />
@@ -41,8 +25,30 @@
         <mxCell id="eLje1S4wmRh149E8_loH-1" value="Gleis 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="58" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="T3QLezHUlxtS88Swqt75-1" value="Gleis 100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="50" width="70" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="eLje1S4wmRh149E8_loH-2" value="Gleis 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="16" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T3QLezHUlxtS88Swqt75-2" value="Gleis 200" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbAr8CiwFzu9fodnG-jA-1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF8000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="80" as="sourcePoint" />
+            <mxPoint x="360" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbAr8CiwFzu9fodnG-jA-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#0040ff;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="80" as="sourcePoint" />
+            <mxPoint x="360" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="40" />
+              <mxPoint x="320" y="40" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="xOhPQXUJzqTKtI1670NW-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="215" y="97" width="10" height="10" as="geometry" />
@@ -50,11 +56,17 @@
         <mxCell id="xOhPQXUJzqTKtI1670NW-2" value="Leitstelle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="110" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="T3QLezHUlxtS88Swqt75-1" value="Gleis 100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="50" width="70" height="30" as="geometry" />
+        <mxCell id="T3QLezHUlxtS88Swqt75-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.116;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T3QLezHUlxtS88Swqt75-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="130" as="sourcePoint" />
+            <mxPoint x="80" y="80" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="T3QLezHUlxtS88Swqt75-2" value="Gleis 200" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="50" width="60" height="30" as="geometry" />
+        <mxCell id="T3QLezHUlxtS88Swqt75-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="80" as="sourcePoint" />
+            <mxPoint x="430" y="80" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
