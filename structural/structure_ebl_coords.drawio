@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T16:23:10.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="TWjEi_Xv0PuYwDuQx4EI" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T16:27:37.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="Z7Zc-RHtVuW8oHOJ9Exu" version="23.1.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1418" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1153" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,6 +114,21 @@
             <mxPoint x="200" y="194.78231917872142" as="sourcePoint" />
             <mxPoint x="299.20000000000005" y="194.78" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fMTY6dP0-OxVozK_XPVq-22" value="Physisches Gerät" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMTY6dP0-OxVozK_XPVq-23" value="Legende:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fMTY6dP0-OxVozK_XPVq-24" value="Eigene Software" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMTY6dP0-OxVozK_XPVq-25" value="bereits vorhandene Software" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMTY6dP0-OxVozK_XPVq-26" value="Software von Drittanbietern, von uns deployed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
