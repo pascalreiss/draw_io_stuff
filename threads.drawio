@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T15:35:43.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="AOAa8FReHRbnCCnM1I0T" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T16:33:41.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="uoXZ6KEQF544-ibWfzTW" version="23.1.5" type="github">
   <diagram name="Page-1" id="ToANJIGu34HC7c5-Z4KE">
-    <mxGraphModel dx="971" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,6 +157,35 @@
             <mxPoint x="690" y="220" as="sourcePoint" />
             <mxPoint x="740" y="170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YD76ubpA7xGGVRLklpL1-23" value="Legende:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YD76ubpA7xGGVRLklpL1-24" value="Thread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YD76ubpA7xGGVRLklpL1-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=38;endSize=9;width=36;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="560.25" as="sourcePoint" />
+            <mxPoint x="350" y="559.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YD76ubpA7xGGVRLklpL1-27" value="Schnittstelle zu &lt;br&gt;Endpunkt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YD76ubpA7xGGVRLklpL1-26">
+          <mxGeometry x="-0.2" y="-3" relative="1" as="geometry">
+            <mxPoint x="8" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YD76ubpA7xGGVRLklpL1-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="559.57" as="sourcePoint" />
+            <mxPoint x="465" y="559.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YD76ubpA7xGGVRLklpL1-29" value="FiFo Queue im Speicher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YD76ubpA7xGGVRLklpL1-31" value="Aufruf&lt;br&gt;Inhalt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="530" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
