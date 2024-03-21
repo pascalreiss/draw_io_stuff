@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T15:07:41.014Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="dNuyWJjOkxGKiAiFsyCW" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T15:10:26.759Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cTMNL3IqcB6JYR1c_iws" version="24.0.5" type="github">
   <diagram id="3228e29e-7158-1315-38df-8450db1d8a1d" name="Page-1">
     <mxGraphModel dx="1418" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -22,16 +22,16 @@
         <mxCell id="21536" value="Command Pattern" style="text;fontSize=24;align=center;verticalAlign=middle;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="494.5" y="650" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="21537" value="Subject" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="21537" value="Subject" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="565" y="165" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pKGtUZ6lejOE7qDzxON1-21538" value="Observer" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="pKGtUZ6lejOE7qDzxON1-21538" value="Observer" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="565" y="310" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pKGtUZ6lejOE7qDzxON1-21539" value="Command" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="pKGtUZ6lejOE7qDzxON1-21539" value="Command" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="565" y="600" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pKGtUZ6lejOE7qDzxON1-21540" value="Worker" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="pKGtUZ6lejOE7qDzxON1-21540" value="Worker" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="565" y="370" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
