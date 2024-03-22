@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T14:57:02.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="R_RxuqilJnXOFBFytY5R" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T14:57:14.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="8dJB1mz_o9W4yN9tYm69" version="24.0.7" type="github">
   <diagram name="Page-1" id="d7fj6ioqYO5WeAR4diIX">
     <mxGraphModel dx="968" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="UXEjHT6S1JPCdApJOyMU-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="UXEjHT6S1JPCdApJOyMU-1" vertex="1">
           <mxGeometry x="75" y="175" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UXEjHT6S1JPCdApJOyMU-3" value="get_ts_gui_Cmd.run()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1" target="LVMsklxWz2f9slpyoXgJ-2">
+        <mxCell id="UXEjHT6S1JPCdApJOyMU-3" value="get_ts_gui_cmd.run()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1" target="LVMsklxWz2f9slpyoXgJ-2">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="89" y="176" as="sourcePoint" />
             <mxPoint x="360" y="176" as="targetPoint" />
