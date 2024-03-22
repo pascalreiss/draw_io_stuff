@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T14:42:36.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="XuuuSyzeqBubfxGYYvUx" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T14:43:11.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="XViQrHDaE-Q1FtvoQD87" version="24.0.7" type="github">
   <diagram name="Page-1" id="dvPHinlZBPJ4L_6FFbOk">
     <mxGraphModel dx="312" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zgx9ZT2XsgPmgFRbW2Gv-1" value="Observer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="zgx9ZT2XsgPmgFRbW2Gv-1" value="Observer: ABC" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="20" width="160" height="94" as="geometry" />
         </mxCell>
         <mxCell id="zgx9ZT2XsgPmgFRbW2Gv-2" value="+ result: Any&lt;br&gt;+ subject: Subject" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="zgx9ZT2XsgPmgFRbW2Gv-1" vertex="1">
