@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T09:42:46.797Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="D1r2ctFi6IjqXG0i9PNK" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-21T09:54:15.023Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="L8GCM2i1eJx_Oh3r9Ids" version="24.0.7" type="github">
   <diagram id="3228e29e-7158-1315-38df-8450db1d8a1d" name="Page-1">
     <mxGraphModel dx="1418" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -22,10 +22,7 @@
         <mxCell id="pKGtUZ6lejOE7qDzxON1-21538" value="Observer" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="565" y="295" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pKGtUZ6lejOE7qDzxON1-21539" value="Command" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="565" y="600" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pKGtUZ6lejOE7qDzxON1-21540" value="Main" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="pKGtUZ6lejOE7qDzxON1-21540" value="EblCoords" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="565" y="380" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
